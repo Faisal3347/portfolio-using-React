@@ -15,6 +15,7 @@ import figma from '../assets/img/figma.png'
 import boot from '../assets/img/boot.png'
 import Mysql from '../assets/img/mysql.png'
 import mongo from '../assets/img/mongo.png'
+import cpp from "../assets/img/cppimage.png"
 
 export default function Skills() {
   const skillsData = [
@@ -25,7 +26,7 @@ export default function Skills() {
     },
     {
         category: "Languages",
-        skills: [java, python, php, Prog]
+        skills: [cpp, python, php, Prog]
       },
       
     {
