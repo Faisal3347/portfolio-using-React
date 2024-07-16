@@ -6,7 +6,7 @@ import dustechproject from '../assets/img/dustechproject.png';
 import Dermassist from '../assets/img/dermassistproject.png';
 import portfolioProject from '../assets/img/portfolioproject.png';
 import MealProject from '../assets/img/MealProject.png'; 
-// import importExportProject from '../assets/img/importExportProject.png';
+import mmnf from '../assets/img/mmnfproject.jpeg';
 
 export default function Projects() {
   const projects = [
@@ -21,7 +21,7 @@ export default function Projects() {
     { title: 'DermAssist ', imageUrl: Dermassist, info: `Developed DermAssist, a skin disease prediction platform, using React for the front end, Python for model building, and Flask for integration. This project featured an intuitive user interface and a robust backend to support the deep learning model, enabling accurate predictions through image analysis using a Convolutional Neural Network (CNN).`, 
       linkUrl: 'https://github.com/Faisal3347/DermAssist' },
       
-    { title: 'MMNF Product Listing & Sales', imageUrl: Dermassist, info: `Created MMNF Product Listing and Sales, a dynamic website for product management and sales, using HTML, CSS, JavaScript, PHP, and SQL. This project featured a comprehensive admin panel allowing administrators to upload, update, and delete products efficiently, ensuring seamless inventory management and enhanced user experience.`, 
+    { title: 'MMNF Product Listing & Sales', imageUrl: mmnf, info: `Created MMNF Product Listing and Sales, a dynamic website for product management and sales, using HTML, CSS, JavaScript, PHP, and SQL. This project featured a comprehensive admin panel allowing administrators to upload, update, and delete products efficiently, ensuring seamless inventory management and enhanced user experience.`, 
       linkUrl: 'https://github.com/Faisal3347/MMNF' },
 
     { title: 'Portfolio', imageUrl: portfolioProject, info: `Developed a responsive portfolio website using ReactJS and CSS, showcasing certificates, projects, and skills. This project involved creating a visually appealing and user-friendly interface to highlight personal achievements and professional expertise, ensuring optimal viewing across various devices.`, 

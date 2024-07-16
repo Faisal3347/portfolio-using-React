@@ -8,8 +8,13 @@ import  Certificate  from "./components/Certificate";
 import Skills from "./components/Skills";
 import Footer from "./components/Footer";
 import Project from "./components/Project"
+import React, { useEffect } from 'react';
+
 
 function App() {
+  useEffect(() => {
+    document.title = 'Faisal Khan Portfolio';
+  }, []);
   return (
     <div className="App">
       <NavBar />
