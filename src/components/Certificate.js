@@ -61,7 +61,7 @@ export default function Certificate() {
   return (
     <>
       <div className="certificate-header" id='certificateSection'>
-        <h1 style={{textAlign:"center", marginTop:"3rem",fontFamily:'comicPillow',fontFamily:"ui-sans-serif",fontSize:"60px"}}>Certificate<hr></hr></h1>
+        <h1 style={{textAlign:"center", marginTop:"0rem",fontFamily:'comicPillow',fontFamily:"ui-sans-serif",fontSize:"60px"}}>Certificate<hr></hr></h1>
       </div>
       <div id="certificate" className="certificate-container">
         <Slider {...settings}>
