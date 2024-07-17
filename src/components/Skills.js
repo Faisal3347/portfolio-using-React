@@ -56,8 +56,8 @@ export default function Skills() {
           <div className="skills">
             {skills.map((skill, index) => (
               <div key={index} className="skill">
-                <img src={skill} alt={`Skill ${index}`} style={{ width: '300%', height:'100%', borderRadius: '50%' }} />
-              </div>
+                <img src={skill} alt={`Skill ${index}`} style={{ width: '300%', height:'150%', borderRadius: '50%' }} />
+                </div>
             ))}
           </div>
         </div>

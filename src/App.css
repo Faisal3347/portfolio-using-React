@@ -397,6 +397,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /* ======certificates=========== */
 /* src/components/Certificates.css */
+.certificate-main{
+  background-image: url("./assets/img/banner-bg.png");
+}
 
 .certificate-container {
   width: 100%; 
@@ -448,9 +451,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .certificate-header h1 {
-  background-image: radial-gradient(#ffffff 1.5px, transparent 1.5px), radial-gradient(#ffffff 1.5px, transparent 1.5px);
+  /* background-image: radial-gradient(#ffffff 1.5px, transparent 1.5px), radial-gradient(#ffffff 1.5px, transparent 1.5px);
 background-size: 70px 70px;
-background-position: 0 0, 35px 35px;
+background-position: 0 0, 35px 35px; */
   align-items: center;
   text-align: center;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -502,12 +505,16 @@ background-position: 0 0, 35px 35px;
 /* ==============Skills =============== */
 .skills-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
-  width: 100%;
-  margin: 0 auto; /* Center the container */
-  overflow: hidden;
-  margin-top: -1rem;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 60px 0 20px 0;
+    /* background-image: radial-gradient(#ffffff 2.2px, transparent 2.2px), radial-gradient(#ffffff 1.5px, transparent 1.5px);
+  background-size: 70px 70px;
+  background-position: 0 0, 35px 35px;
+  background-color: #3c3d3d; */
+    margin: 0 auto; 
+    overflow: hidden;
+    margin-top: -96px;
   background-image: url("./assets/img/banner-bg.png");
 }
 
@@ -519,6 +526,7 @@ background-position: 0 0, 35px 35px;
   margin: 35px auto;
   left: 5rem;
   cursor: pointer;
+  margin-top: 80px;
   /* overflow: hidden; */
 }
 
@@ -739,6 +747,9 @@ background-position: 0 0, 35px 35px;
 
 /* ===============Project================ */
 
+.project-main{
+  background-image: url("../src/assets/img/banner-bg.png");
+}
 .projects-container {
   display: flex;
   flex-wrap: wrap;
@@ -799,9 +810,9 @@ background-position: 0 0, 35px 35px;
 }
 
 .project-header h1 {
-  background-image: radial-gradient(#ffffff 1.5px, transparent 1.5px), radial-gradient(#ffffff 1.5px, transparent 1.5px);
+  /* background-image: radial-gradient(#ffffff 1.5px, transparent 1.5px), radial-gradient(#ffffff 1.5px, transparent 1.5px);
 background-size: 70px 70px;
-background-position: 0 0, 35px 35px;
+background-position: 0 0, 35px 35px; */
   align-items: center;
   text-align: center;
   font-family: 'comicPillow', sans-serif;

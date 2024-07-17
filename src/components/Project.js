@@ -34,6 +34,7 @@ export default function Projects() {
 
   return (
     <>
+      <div className='project-main'>
       <div className="project-header" id='projectSection'>
         <h1 style={{textAlign:"center", marginTop:"0rem", fontFamily:'ui-sans-serif',fontSize:"60px"}} className='main_header_text'>PROJECTS<hr></hr></h1>
       </div>
@@ -50,6 +51,7 @@ export default function Projects() {
             </div>
           </div>
         ))}
+      </div>
       </div>
     </>
   );
