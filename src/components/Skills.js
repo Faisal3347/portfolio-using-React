@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import java from '../assets/img/java1.png'
 import python from '../assets/img/python.png'
 import php from '../assets/img/php.png'
 import Prog from '../assets/img/Cprogramming.png'
@@ -57,7 +56,7 @@ export default function Skills() {
           <div className="skills">
             {skills.map((skill, index) => (
               <div key={index} className="skill">
-                <img src={skill} alt={`Skill ${index}`} style={{ width: '300%', height:'150%', borderRadius: '50%' }} />
+                <img src={skill} alt={`Skill ${index}`} style={{ width: '300%', height:'100%', borderRadius: '50%' }} />
               </div>
             ))}
           </div>
