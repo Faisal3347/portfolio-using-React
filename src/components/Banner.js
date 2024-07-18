@@ -63,7 +63,7 @@ solid theoretical knowledge and practical experience to create innovative and im
 benefit.</p>
 
 <button onClick={() => console.log('connect')}>
-                               <a  href={'https://drive.google.com/file/d/1eJaO0VD8fnwfrOQpsu0RWeT-CdsyGXQ8/view?usp=drive_link'} className="resume" target="_blank">
+                               <a  href={'https://drive.google.com/file/d/1XMh8TcTaW4-pZs0HqdChN0eByXGOHQ7n/view?usp=sharing'} className="resume" target="_blank">
                                View Resume <ArrowRightCircle size={25} /> 
                                 </a> </button>
                   
