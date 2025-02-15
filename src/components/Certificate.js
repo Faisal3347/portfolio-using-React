@@ -60,7 +60,7 @@ export default function Certificate() {
 
   return (
     <>
-    <div class="certificate-main">
+    <div id="certificate" class="certificate-main">
       <div className="certificate-header" id='certificateSection'>
         <h1 style={{textAlign:"center", marginTop:"0rem",fontFamily:'comicPillow',fontFamily:"ui-sans-serif",fontSize:"60px"}}>Certificate<hr></hr></h1>
       </div>

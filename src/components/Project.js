@@ -1,10 +1,9 @@
 import React from 'react';
 import { ArrowRightCircle } from 'react-bootstrap-icons';
-
 import aafiyaproject from '../assets/img/aafiyaproject2.png';
 import dustechproject from '../assets/img/dustechproject.png';
 import Dermassist from '../assets/img/dermassistproject.png';
-import portfolioProject from '../assets/img/portfolioproject.png';
+import portfolioProject from "../assets/img/portfolioproject.png"
 import MealProject from '../assets/img/MealProject.png'; 
 import mmnf from '../assets/img/mmnfproject.jpeg';
 
@@ -34,7 +33,7 @@ export default function Projects() {
 
   return (
     <>
-      <div className='project-main'>
+      <div id='projects' className='project-main'>
       <div className="project-header" id='projectSection'>
         <h1 style={{textAlign:"center", marginTop:"0rem", fontFamily:'ui-sans-serif',fontSize:"60px"}} className='main_header_text'>PROJECTS<hr></hr></h1>
       </div>

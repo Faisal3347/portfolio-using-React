@@ -27,8 +27,9 @@ function App() {
         MY Skills
       </h2>
       <Skills />
-      <Project />
       <Certificate />
+      <Project />
+      
       <Contact />
       <Footer />
     </div>
